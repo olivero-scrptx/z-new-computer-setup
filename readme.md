@@ -15,27 +15,34 @@
 *check to see if brew casks exist for these (make sure to choose the old versions you purchased)*
 
    - magnet
-   - microsoft office suite: excel, ppt, outlook
    - daisydisk
    - better rename 9
    - audionote
    - cleanmymac (sub)
    - anki
    - slack
+   - screenfloat
 
 # Dev environment
 4. open iTerm and install default profile
 5. sign into VSCode and install extensions
 6. sign into Cursor and transfer VSCode settings
-7. setup github sync:
-   - `brew install gh` (if not already installed)
-   - `gh auth login`
-8.
+7. connect github account to VScode/cursor so you can commit stuff
+```sh
+git config --global user.name "oliveroliverio"
+git config --global user.email oliveroliverio@gmail.com
+```
 
 
 ## Keyboard Maestro and custom shortcuts
 8.  open keyboard maestro and make a `open-in-cursor` shortcut
 9.  disable default keyboard maestro shortcuts:  `search the web`: `
+
+## Scrp-wrk specific
+10. use Scorpion self service app to install: Scinamic, Chemdraw, D360, fortclient vpn, printer drivers, microsoft office suite, the unarchiver
+    - D360 url: `d360.scorpiontx.com:8080`
+    - chemdraw activation code: `C387-38A1-A02C-D6DE`.  Email: `ooliverio@scorpiontx.com`
+    - prism: refer to last pass machine code and serial
 
 ## Other
 10. sign into lastpass
@@ -113,7 +120,7 @@ echo "Installing command-line packages..."
 
 brew install node
 brew install git
-brew install gh
+
 
 # Install GUI applications (casks)
 echo "Installing GUI applications..."
@@ -158,3 +165,6 @@ end tell
 
 ```
 ![](readme_img/2024-12-05-12-44-00.png)
+
+---
+# Useful shortcuts
