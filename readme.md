@@ -50,6 +50,20 @@ git config --global user.email oliveroliverio@gmail.com
 12. adobe creative cloud: illustrator
 
 
+# CS-Py: Setting up VSCode for python
+
+https://www.youtube.com/watch?v=zulGMYg0v6U
+
+1. open folder w/ vs code
+2. save workspace file
+3. extensions
+    1. python extension pack: LeoJhonSong
+    2. pylance: microsoft
+    3. jupyter
+    4. path intellisense
+    5. material icon theme
+
+
 
 ---
 # Code/scripts
