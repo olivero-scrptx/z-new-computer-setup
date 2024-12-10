@@ -33,6 +33,20 @@ git config --global user.name "oliveroliverio"
 git config --global user.email oliveroliverio@gmail.com
 ```
 
+## VScode paste image extension settings
+Paste Image - Mushan v1.0.4
+- paste image: base path: `${projectRoot}`
+- paste image: default name: `YMMDD_HH-mm-ss`
+- paste image: path: `${projectRoot}/zz-img`
+- paste image: prefix: `/`
+- ~~paste image: default name: `${currentFileDir}_YMMDD_HH-mm-ss`~~
+- ~~paste image: name prefix: `${currentFileDir}_`~~
+
+
+## Markdown Preview Enhanced settings
+shd101wyy
+- need to install [princexml](https://www.princexml.com/download/15/) to enable export to PDF
+
 
 ## Keyboard Maestro and custom shortcuts
 8.  open keyboard maestro and make a `open-in-cursor` shortcut
