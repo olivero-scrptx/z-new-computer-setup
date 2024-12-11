@@ -28,9 +28,20 @@
 5. sign into VSCode and install extensions
 6. sign into Cursor and transfer VSCode settings
 7. connect github account to VScode/cursor so you can commit stuff
+
 ```sh
-git config --global user.name "oliveroliverio"
-git config --global user.email oliveroliverio@gmail.com
+# Set up Git identity
+git config --global user.name "your-current-github-username"
+git config --global user.email your-current-github-email@example.com
+
+# Install GitHub CLI
+brew install gh
+
+# Login to GitHub (choose HTTPS when prompted)
+gh auth login
+
+# Verify authentication
+gh auth status
 ```
 
 ## VScode paste image extension settings
