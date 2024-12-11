@@ -58,6 +58,9 @@ shd101wyy
     - chemdraw activation code: `C387-38A1-A02C-D6DE`.  Email: `ooliverio@scorpiontx.com`
     - prism: refer to last pass machine code and serial
 
+## Anki setup
+- [markdown and katex support](https://ankiweb.net/shared/info/1087328706): install plugin: 1087328706
+
 ## Other
 10. sign into lastpass
 11.  open notion, sign in and sync
