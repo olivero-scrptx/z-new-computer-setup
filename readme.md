@@ -42,6 +42,13 @@ gh auth login
 
 # Verify authentication
 gh auth status
+
+# Create and push repository
+gh repo create new-computer-setup --public
+git init
+git add .
+git commit -m "Initial commit: New computer setup protocol"
+git push -u origin main
 ```
 
 ## VScode paste image extension settings
